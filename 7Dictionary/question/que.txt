@@ -1,0 +1,6 @@
+(1) Write a Python program to iterate over dictionaries using for loops
+(2) Write a Python script to merge two Python dictionaries.
+(3) Write a Python program to sum all the values in a dictionary.
+(4) Convert a list to dictionary 
+(5) count the frequency of each elements
+(6) Write a Python program to combine two dictionary by adding values for common keys.

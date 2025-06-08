@@ -1,0 +1,9 @@
+sum 10 numbers
+factorial
+seprate digtis
+check numbers are same or not
+'''Hw Que'''
+------ Take a number (145) seprate digits and find each digit factorial then sum of each digit factorial compare with original number if are same print Strong Number else Print Not a Strong numbers ------
+
+
+--- Print Prime Numbers Between a Range ---

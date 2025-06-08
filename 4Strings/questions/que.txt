@@ -1,0 +1,13 @@
+(31) Print string in reverse,its length,in uppercase,lowercase and copy into another string
+(32) Arrange string characters such that lowercase letters should come first
+(33) Count all letters, digits, and special symbols from a given string
+    Given: str1 = "P@#yn26at^&i5ve"
+    Expected Outcome:
+    Total counts of chars, digits, and symbols
+    Chars = 8
+    Digits = 3
+    Symbol = 4
+(34) Compare two strings without using inbuilt functionsx
+(35) Count Vowels from given string
+(36) Reverse a string
+(37) Check a string is Palindrome or not

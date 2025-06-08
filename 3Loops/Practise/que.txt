@@ -1,0 +1,51 @@
+1. Print all natural numbers from 1 to *n* using a while loop.  
+2. Print all natural numbers in reverse (from *n* to 1) using a while loop.  
+3. Print all alphabets from 'a' to 'z' using a while loop.  
+4. Print all even numbers between 1 to 100 using a while loop.  
+5. Print all odd numbers between 1 to 100 using a while loop.  
+6. Find the sum of all natural numbers between 1 to *n*.  
+7. Find the sum of all even numbers between 1 to *n*.  
+8. Find the sum of all odd numbers between 1 to *n*.  
+9. Print the multiplication table of any number.  
+10. Count the number of digits in a number.  
+11. Find the first and last digit of a number.  
+12. Find the sum of the first and last digit of a number.  
+13. Swap the first and last digits of a number.  
+14. Calculate the sum of digits of a number.  
+15. Calculate the product of digits of a number.  
+16. Enter a number and print its reverse.  
+17. Check whether a number is palindrome or not.  
+18. Find the frequency of each digit in a given integer.  
+19. Enter a number and print it in words.  
+20. Print all ASCII characters with their values.  
+21. Find the power of a number using a for loop.  
+22. Find all factors of a number.  
+23. Calculate the factorial of a number.  
+24. Find the HCF (GCD) of two numbers.  
+25. Find the LCM of two numbers.  
+26. Check whether a number is a Prime number or not.  
+27. Print all Prime numbers between 1 to *n*.  
+28. Find the sum of all prime numbers between 1 to *n*.  
+29. Find all prime factors of a number.  
+30. Check whether a number is an Armstrong number or not.  
+31. Print all Armstrong numbers between 1 to *n*.  
+32. Check whether a number is a Perfect number or not.  
+33. Print all Perfect numbers between 1 to *n*.  
+34. Check whether a number is a Strong number or not.  
+35. Print all Strong numbers between 1 to *n*.  
+36. Print Fibonacci series up to *n* terms.  
+37. Find one’s complement of a binary number.  
+38. Find two’s complement of a binary number.  
+39. Convert Binary to Octal number system.  
+40. Convert Binary to Decimal number system.  
+41. Convert Binary to Hexadecimal number system.  
+42. Convert Octal to Binary number system.  
+43. Convert Octal to Decimal number system.  
+44. Convert Octal to Hexadecimal number system.  
+45. Convert Decimal to Binary number system.  
+46. Convert Decimal to Octal number system.  
+47. Convert Decimal to Hexadecimal number system.  
+48. Convert Hexadecimal to Binary number system.  
+49. Convert Hexadecimal to Octal number system.  
+50. Convert Hexadecimal to Decimal number system.  
+51. Print Pascal’s triangle up to *n* rows.  

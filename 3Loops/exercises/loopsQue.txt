@@ -1,0 +1,23 @@
+              **ITERATIVE STATEMENTS**
+
+(1) Accept an integer and Print hello world n times
+(2) Print natural number up to n. 
+(3) Reverse for loop. Print n to 1.
+(4) Take a number as input and print its table
+       5 * 1 = 5
+       5 * 2 = 10 ... up to 10 terms
+(5) Sum up to n terms.
+(6) Factorial of a number
+(7) Print the sum of all even & odd numbers in a range seperately.
+(8) Print all the numbers which are either divisible by 3 or 5 in a range 
+(9) Print all the factors of a number.
+(10) Print the sum of all factors of a number, 50 - 1 + 2 + 5 + 10 + 25 = 43
+(11)  Accept a number and check if it a perfect number or not.
+      A number whose sum of factors(excluding number itself)  = Number 
+      Ex -  6 = 1, 2, 3 = 6
+(12) Seprate each digit of a number and print it on the new line
+(13) Check if the number is Prime or not.
+(14) Accept a number and print its reverse
+(15) Accept a number and check if it is a pallindromic number (If number and its reverse are equal)
+       Ex - 12321 - Rerverse - 12321
+
