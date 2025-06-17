@@ -10,17 +10,16 @@ class Shape:
 class Square(Shape):
     def __init__(self, side):
         self.side = side
-    
+
     def area(self):
         return self.side * self.side    
-    
+
 class Circle(Shape):
     def __init__(self,side):
         self.side = side
 
     def area(self):
         return 3.14 * self.side**2
-    
 
 # c = Circle(8)
 # print(c.area())
