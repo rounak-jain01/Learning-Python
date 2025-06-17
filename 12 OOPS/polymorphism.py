@@ -37,7 +37,4 @@ class Demo:
 
 d = Demo()
 # d.display(10)  # This will raise an error because the second display method overrides the first one
-d.display(10, 20)  # This will work as expected   
-
-        
-    
+d.display(10, 20)  # This will work as expected
