@@ -56,11 +56,6 @@ class Bank:
     def depositMoney(self):
         acc = input("Please Enter Your Account Number ")
         pin = input("Please Enter Your Pin ")
-        # for i in Bank.data:
-        #     if i["AccountNo."] == acc and i["pin"] == pin:
-        #         userdata = i
-        #         print(userdata)
-        #         break
 
         userdata = [i for i in Bank.data if i["AccountNo."] == acc and i["pin"]== pin]
         if userdata == False:
@@ -77,14 +72,54 @@ class Bank:
                 print("Money Deposited Successfully")
 
 
+    def withdrawlMoney(self):
+        acc = input("Please Enter Your Account Number ")
+        pin = input("Please Enter Your Pin ")
+        userdata = [i for i in Bank.data if i["AccountNo."] == acc and i["pin"]== pin]
+        if userdata == False:
+            print("No data Found for this User ")
+        else:
+            amt = int(input("Enter Amount to withdrawl "))
+            if amt > 10000:
+                print("You can withdrawl between 0-10000 only")
+            elif amt == 0:
+                print("Please Enter a Valid Amount")
+            else:
+                if userdata[0]["balance"] < amt:
+                    print("Insufficient Funds")
+                else:
+                    userdata[0]["balance"] -= amt
+                    Bank.update_data()
+                    print(f"{amt} Withdrawl Successfully")
+
+    
+
+
+
 bank = Bank()
-check = int(input("""
-Press 1 to create a bank account: 
-Press 2 For deposit Money
-"""))
 
-if check == 1:
-    bank.createuser()
 
-if check == 2:
-    bank.depositMoney()
+a = True
+while(a):
+
+    check = int(input("""
+    Press 1 to create a bank account: 
+    Press 2 For deposit Money
+    Press 3 for Withdrawl Money
+    Press 0 for Exit
+    """))
+
+
+
+
+    if check == 1:
+        bank.createuser()
+
+    if check == 2:
+        bank.depositMoney()
+
+    if check == 3:
+        bank.withdrawlMoney()
+
+    if check == 0:
+        a = False
